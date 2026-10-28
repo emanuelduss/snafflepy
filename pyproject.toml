@@ -13,7 +13,7 @@ py-modules = ["snaffler"]
 packages = ["snaffcore"]
 
 [project.scripts]
-snaffler.py = "snaffler:main"
+snaffler = "snaffler:main"
 
 [build-system]
 requires = ["setuptools>=61.0"]
