@@ -39,6 +39,12 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
+The script can be executed like this.
+
+```bash
+python snaffler.py ...
+```
+
 ### Using `uv`
 
 Intall using `uv`:
@@ -47,7 +53,11 @@ Intall using `uv`:
 uv install git+https://github.com/cisagov/snafflepy
 ```
 
-This installs the `snaffler` command.
+This installs the `snaffler` command, so cou can directly invoke this command:
+
+```bash
+snaffler ...
+```
 
 ## Usage and Options
 
